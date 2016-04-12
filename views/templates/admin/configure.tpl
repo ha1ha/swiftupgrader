@@ -21,11 +21,10 @@
 		<legend>{l s='SwiftMailer upgrader' mod='swiftupgrader'}</legend>
 		<p>
 			<strong>{l s='This module upgrade your version of SwiftMailer' mod='swiftupgrader'}</strong><br />
-			{l s='The version being used depends on your PHP version:' mod='swiftupgrader'}<br />
+			{l s='Currently installed version:' mod='swiftupgrader'}<br />
 		</p>
 		<ul>
-			<li>{l s='Version 5.3 or lower: SwiftMailer 5.2.2' mod='swiftupgrader'}</li>
-			<li>{l s='Version 5.4 or higher: SwiftMailer 5.4.1' mod='swiftupgrader'}</li>
+			<li>{l s='SwiftMailer 5.4.1' mod='swiftupgrader'}</li>
 		</ul>
 		<p>
 			{l s='If you do not see any error messages on this page, then you have successfully installed the module' mod='swiftupgrader'}
@@ -37,11 +36,10 @@
 		<h3><i class="icon icon-email"></i> {l s='SwiftMailer upgrader' mod='swiftupgrader'}</h3>
 		<p>
 			<strong>{l s='This module upgrade your version of SwiftMailer' mod='swiftupgrader'}</strong><br />
-			{l s='The version being used depends on your PHP version:' mod='swiftupgrader'}<br />
+			{l s='Currently installed version:' mod='swiftupgrader'}<br />
 		</p>
 		<ul>
-			<li>{l s='Version 5.3 or lower: SwiftMailer 5.2.2' mod='swiftupgrader'}</li>
-			<li>{l s='Version 5.4 or higher: SwiftMailer 5.4.1' mod='swiftupgrader'}</li>
+			<li>{l s='SwiftMailer 5.4.1' mod='swiftupgrader'}</li>
 		</ul>
 		<p>
 			{l s='If you do not see any error messages on this page, then you have successfully installed the module' mod='swiftupgrader'}
