@@ -233,7 +233,7 @@ class Mail extends MailCore
             ShopUrl::cacheMainDomainForShop((int)$id_shop);
             /* don't attach the logo as */
             if (isset($logo)) {
-                $template_vars['{shop_logo}'] = $message->embed(SwiftUpgrade_Upgrade_Image::fromPath($logo));
+                $template_vars['{shop_logo}'] = $message->embed(SwiftUpgrade_Image::fromPath($logo));
             }
 
             if ((Context::getContext()->link instanceof Link) === false) {

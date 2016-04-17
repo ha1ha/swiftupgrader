@@ -161,6 +161,6 @@ class Swiftupgrader extends Module
         $sql->where('tl.`id_lang` = '.(int)$id_lang);
         $sql->where('t.`class_name` = \''.pSQL($class).'\'');
 
-        return Db::getInstance()->getValue($sql);
+        return Db::getInstance(_PS_USE_SQL_SLAVE_)->getValue($sql);
     }
 }
