@@ -36,7 +36,7 @@ class SwiftUpgrade_FailoverTransport extends SwiftUpgrade_Transport_FailoverTran
      *
      * @param SwiftUpgrade_Transport[] $transports
      *
-     * @return Swift_FailoverTransport
+     * @return SwiftUpgrade_FailoverTransport
      */
     public static function newInstance($transports = array())
     {

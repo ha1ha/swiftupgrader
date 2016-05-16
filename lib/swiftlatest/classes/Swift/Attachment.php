@@ -27,7 +27,7 @@ class SwiftUpgrade_Attachment extends SwiftUpgrade_Mime_Attachment
     public function __construct($data = null, $filename = null, $contentType = null)
     {
         call_user_func_array(
-            array($this, 'Swift_Mime_Attachment::__construct'),
+            array($this, 'SwiftUpgrade_Mime_Attachment::__construct'),
             SwiftUpgrade_DependencyContainer::getInstance()
                 ->createDependenciesFor('mime.attachment')
             );

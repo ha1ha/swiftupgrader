@@ -20,7 +20,7 @@ interface SwiftUpgrade_CharacterReaderFactory
      *
      * @param string $charset
      *
-     * @return Swift_CharacterReader
+     * @return SwiftUpgrade_CharacterReader
      */
     public function getReaderFor($charset);
 }

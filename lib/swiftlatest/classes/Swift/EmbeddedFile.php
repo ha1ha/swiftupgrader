@@ -27,7 +27,7 @@ class SwiftUpgrade_EmbeddedFile extends SwiftUpgrade_Mime_EmbeddedFile
     public function __construct($data = null, $filename = null, $contentType = null)
     {
         call_user_func_array(
-            array($this, 'Swift_Mime_EmbeddedFile::__construct'),
+            array($this, 'SwiftUpgrade_Mime_EmbeddedFile::__construct'),
             SwiftUpgrade_DependencyContainer::getInstance()
                 ->createDependenciesFor('mime.embeddedfile')
             );
@@ -46,7 +46,7 @@ class SwiftUpgrade_EmbeddedFile extends SwiftUpgrade_Mime_EmbeddedFile
      * @param string                        $filename
      * @param string                        $contentType
      *
-     * @return Swift_Mime_EmbeddedFile
+     * @return SwiftUpgrade_Mime_EmbeddedFile
      */
     public static function newInstance($data = null, $filename = null, $contentType = null)
     {
@@ -58,7 +58,7 @@ class SwiftUpgrade_EmbeddedFile extends SwiftUpgrade_Mime_EmbeddedFile
      *
      * @param string $path
      *
-     * @return Swift_Mime_EmbeddedFile
+     * @return SwiftUpgrade_Mime_EmbeddedFile
      */
     public static function fromPath($path)
     {

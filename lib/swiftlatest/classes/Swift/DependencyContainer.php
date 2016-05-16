@@ -91,7 +91,7 @@ class SwiftUpgrade_DependencyContainer
      *
      * @param string $itemName
      *
-     * @throws Swift_DependencyException If the dependency is not found
+     * @throws SwiftUpgrade_DependencyException If the dependency is not found
      *
      * @return mixed
      */
